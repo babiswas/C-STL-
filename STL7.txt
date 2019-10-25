@@ -1,0 +1,15 @@
+#include<iostream>
+#include<map>
+using namespace std;
+
+int main()
+{
+  pair<int,int> p=make_pair(10,20);
+  cout<<p.first<<"  "<<p.second<<endl;
+  map<int,int> mp;
+  for(auto it=mp.begin();it!=mp.end();it++)
+  {
+    cout<<it->first<<" "<<it->second<<endl;
+  }
+  return 0;
+}
